@@ -4,26 +4,49 @@
     box-sizing: border-box;
 }
 
+/*utilities*/
 :root{
     --header-bg-color: #DAA520;
-
+    --main-bg-blue: #00008B;
+    --main-bg-grey: #D3D3D3;
+    --main-bg-pink: #EE82EE;
 }
 
 .debug{
     border: 2px dashed black;
 }
+.general-cnt{
+    width: 70%;
+    margin: 0 auto;
+}
 
+.bg-blue{
+    background-color: var(--main-bg-blue);
+}
+
+.bg-grey{
+    background-color: var(--main-bg-grey);
+}
+
+.bg-pink{
+    background-color: var(--main-bg-pink) ;
+}
+
+.container{
+    height: 320px;
+    width: 100%;
+    padding: 30px;
+}
+
+    
+
+/*Header section*/
 header{
     min-height: 70px;
     background-color: #ADD8E6;
     padding-top: 15px;
 }
 
-.general-cnt{
-    width: 70%;
-    margin: 0 auto;
-    padding: 10px;
-}
 
 .linkbar-cnt{
     width: 100%;
@@ -46,4 +69,16 @@ nav{
 .login-btn{
     width: 20%;
     text-align: right;
+}
+
+/*Main section*/
+
+#jumbotron{
+    margin: 0 auto;
+    height: 100%;
+    width: 50%;
+}
+
+#voice-connected{
+    display: flex;
 }
