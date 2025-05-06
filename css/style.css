@@ -10,6 +10,7 @@
     --main-bg-blue: #00008B;
     --main-bg-grey: #D3D3D3;
     --main-bg-pink: #EE82EE;
+    --main-bg-azul: #1E90FF;
 }
 
 .debug{
@@ -32,8 +33,12 @@
     background-color: var(--main-bg-pink) ;
 }
 
+.bg-azul{
+    background-color: var(--main-bg-azul);
+}
+
 .container{
-    height: 320px;
+    height: 350px;
     padding: 30px;
 }
 
@@ -43,7 +48,7 @@
 header{
     height: 70px;
     background-color: #ADD8E6;
-    padding: 10px;
+    padding-top: 10px;
 }
 
 #linkbar{
@@ -83,6 +88,17 @@ nav{
     width: 50%;
 }
 
-#voice-connected{
+.main-cnt{
+    height: 100%;
     display: flex;
+}
+
+.column-left{
+    width: 70%;
+    background-color: var(--main-bg-pink);
+}
+
+.column-right{
+    width: 30%;
+    background-color: var(--main-bg-azul);
 }
