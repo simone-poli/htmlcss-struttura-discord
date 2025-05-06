@@ -12,7 +12,8 @@
     --main-bg-pink: #EE82EE;
     --main-bg-azul: #1E90FF;
     --main-bg-green: green;
-    --footer-bg-black: black;
+    --footer-bg-black: #23272A;
+    --footer-bg-aqua: #7FFFD4;
 }
 
 .debug{
@@ -118,3 +119,43 @@ nav{
 /*footer section*/
 
 
+.footer-cnt{
+    background-color: var(--footer-bg-black);
+    height: 400px;
+    padding: 5px 30px 15px;
+}
+
+.footer-column{
+    display: flex;
+    height: 100%;
+}
+
+.column{
+    height: 100%;
+    background-color: var(--main-bg-azul);
+    flex-grow:1;
+}
+
+.great{
+    background-color: var(--main-bg-pink);
+    flex-grow: 2;
+}
+
+#footer-nav{
+    background-color: var(--footer-bg-black);
+    height: 70px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 5px 30px 0px;
+}
+
+.cnt-nav{
+    background-color: var(--footer-bg-aqua);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.footer-pd{
+    padding: 3px 5px;
+}
