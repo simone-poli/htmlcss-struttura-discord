@@ -11,6 +11,8 @@
     --main-bg-grey: #D3D3D3;
     --main-bg-pink: #EE82EE;
     --main-bg-azul: #1E90FF;
+    --main-bg-green: green;
+    --footer-bg-black: black;
 }
 
 .debug{
@@ -38,7 +40,7 @@
 }
 
 .container{
-    height: 350px;
+    height: 400px;
     padding: 30px;
 }
 
@@ -48,7 +50,6 @@
 header{
     height: 70px;
     background-color: #ADD8E6;
-    padding-top: 10px;
 }
 
 #linkbar{
@@ -102,3 +103,18 @@ nav{
     width: 30%;
     background-color: var(--main-bg-azul);
 }
+
+.big-cnt{
+    height: 600px;
+    background-color: var(--main-bg-grey);
+    padding: 30px;
+}
+
+.tec-cnt{
+    height: 100%;
+    background-color: var(--main-bg-green);
+}
+
+/*footer section*/
+
+
