@@ -34,7 +34,6 @@
 
 .container{
     height: 320px;
-    width: 100%;
     padding: 30px;
 }
 
@@ -42,22 +41,27 @@
 
 /*Header section*/
 header{
-    min-height: 70px;
+    height: 70px;
     background-color: #ADD8E6;
-    padding-top: 15px;
+    padding: 10px;
 }
 
-
+#linkbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 .linkbar-cnt{
     width: 100%;
     margin: 0 auto;
     background-color: var(--header-bg-color);
     display: flex;
     justify-content: space-between;
+  
 }
 
 .logo{
-    display: flex;
     width: 20%;
 }
 
